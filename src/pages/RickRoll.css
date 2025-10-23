@@ -1,0 +1,139 @@
+.rickroll-container {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #0f0f1e 100%);
+  padding: 2rem;
+}
+
+.rickroll-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  animation: fadeInBounce 0.8s ease-out;
+}
+
+@keyframes fadeInBounce {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(-50px);
+  }
+  60% {
+    transform: scale(1.05) translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.rickroll-iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(138, 43, 226, 0.4),
+              0 0 100px rgba(218, 112, 214, 0.2);
+  border: 3px solid rgba(138, 43, 226, 0.5);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 20px 60px rgba(138, 43, 226, 0.4),
+                0 0 100px rgba(218, 112, 214, 0.2);
+  }
+  50% {
+    box-shadow: 0 20px 80px rgba(138, 43, 226, 0.6),
+                0 0 120px rgba(218, 112, 214, 0.4);
+  }
+}
+
+.rickroll-message {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  background: rgba(20, 20, 40, 0.8);
+  border: 2px solid rgba(138, 43, 226, 0.5);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  animation: slideUp 0.8s ease-out 0.3s both;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rickroll-message h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #da70d6, #9370db, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+  animation: rainbow 3s ease-in-out infinite;
+  background-size: 200% auto;
+}
+
+@keyframes rainbow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.rickroll-message p {
+  font-size: 1.3rem;
+  color: #b19cd9;
+  font-style: italic;
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(138, 43, 226, 0.8),
+                 0 0 30px rgba(218, 112, 214, 0.6);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .rickroll-container {
+    padding: 1rem;
+  }
+
+  .rickroll-message h1 {
+    font-size: 1.8rem;
+  }
+
+  .rickroll-message p {
+    font-size: 1rem;
+  }
+
+  .rickroll-message {
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .rickroll-message h1 {
+    font-size: 1.4rem;
+  }
+
+  .rickroll-message p {
+    font-size: 0.9rem;
+  }
+}
