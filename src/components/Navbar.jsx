@@ -8,7 +8,7 @@ function Navbar() {
     { path: '/khai-niem', label: 'Khái Niệm' },
     { path: '/vi-du', label: 'Ví Dụ' },
     { path: '/y-nghia', label: 'Ý Nghĩa' },
-    { path: '/su-kien', label: 'Sự Kiện Lớp' },
+    { path: 'https://youtube.com/watch?v=dQw4w9WgXcQ', label: 'Sự Kiện Lớp' },
     { path: '/ai-usage', label: 'AI Usage' }
   ]
 

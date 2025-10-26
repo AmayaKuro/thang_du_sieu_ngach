@@ -1,5 +1,8 @@
 import '../pages/PageTemplate.css'
 import './AIUsage.css'
+import ChatGPTLogo from '../assets/chatgpt.svg'
+import GithubCopilotLogo from '../assets/githubcopilot.svg'
+import ClaudeLogo from '../assets/claude.svg'
 
 function AIUsage() {
   return (
@@ -29,8 +32,10 @@ function AIUsage() {
         <div className="tools-grid">
           <div className="tool-card">
             <div className="tool-header">
-              <div className="tool-icon">💬</div>
-              <h3>ChatGPT (GPT-4)</h3>
+              <div className="tool-icon">
+                <img src={ChatGPTLogo} alt="ChatGPT Logo" />
+              </div>
+              <h3>ChatGPT</h3>
             </div>
             <div className="tool-body">
               <div className="tool-purpose">
@@ -46,7 +51,9 @@ function AIUsage() {
 
           <div className="tool-card">
             <div className="tool-header">
-              <div className="tool-icon">🎨</div>
+              <div className="tool-icon">
+                <img src={GithubCopilotLogo} alt="Github Copilot Logo" />
+              </div>
               <h3>GitHub Copilot</h3>
             </div>
             <div className="tool-body">
@@ -63,7 +70,9 @@ function AIUsage() {
 
           <div className="tool-card">
             <div className="tool-header">
-              <div className="tool-icon">🔍</div>
+              <div className="tool-icon">
+                <img src={ClaudeLogo} alt="Claude AI Logo" />
+              </div>
               <h3>Claude AI</h3>
             </div>
             <div className="tool-body">
@@ -107,10 +116,9 @@ function AIUsage() {
               <div className="edit-box">
                 <h4>Chỉnh sửa của sinh viên:</h4>
                 <ul>
-                  <li>Thêm icon emoji phù hợp với bối cảnh Việt Nam</li>
                   <li>Điều chỉnh màu sắc theo theme tím của dự án</li>
                   <li>Thêm animations CSS để tăng tính tương tác</li>
-                  <li>Kiểm chứng nội dung với Giáo trình LLCT</li>
+                  <li>Kiểm chứng nội dung với Giáo trình</li>
                 </ul>
               </div>
             </div>
@@ -133,7 +141,7 @@ function AIUsage() {
               <div className="result-box">
                 <h4>Kết quả AI:</h4>
                 <p>
-                  Định nghĩa tổng quát về surplus value và mối quan hệ với individual value vs market value
+                  Định nghĩa tổng quát về giá trị thặng dư siêu ngạch và mối quan hệ với giá trị cá biệt và giá trị thị trường
                 </p>
               </div>
               <div className="edit-box">
@@ -224,12 +232,12 @@ function AIUsage() {
               <ul className="source-list">
                 <li>
                   <strong>Giáo trình Lý Luận Chính Trị</strong>
-                  <p>Trường Đại học - Chương về Học thuyết giá trị thặng dư</p>
+                  <p>Chương về Học thuyết giá trị thặng dư</p>
                   <span className="verified-badge">✓ Đã kiểm chứng</span>
                 </li>
                 <li>
                   <strong>Tư Bản - Karl Marx</strong>
-                  <p>Bản dịch tiếng Việt - Tập I, Chương X, XI</p>
+                  <p>Bản dịch tiếng Việt</p>
                   <span className="verified-badge">✓ Đã kiểm chứng</span>
                 </li>
                 <li>

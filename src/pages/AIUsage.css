@@ -107,7 +107,23 @@
 }
 
 .tool-icon {
-  font-size: 2.5rem;
+  width: 3rem;
+  height: 3rem;
+  color: #da70d6;
+  filter: drop-shadow(0 0 10px rgba(218, 112, 214, 0.5));
+  transition: all 0.3s ease;
+}
+
+.tool-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.tool-card:hover .tool-icon {
+  color: #ff69b4;
+  filter: drop-shadow(0 0 15px rgba(218, 112, 214, 0.8));
+  transform: scale(1.1);
 }
 
 .tool-header h3 {
