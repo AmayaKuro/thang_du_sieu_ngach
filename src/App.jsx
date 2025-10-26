@@ -6,7 +6,7 @@ import KhaiNiem from './pages/KhaiNiem'
 import ViDu from './pages/ViDu'
 import YNghia from './pages/YNghia'
 import SuKien from './pages/SuKien'
-import AIReport from './pages/AIReport'
+import AIUsage from './pages/AIUsage'
 import RickRoll from './pages/RickRoll'
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
             <Route path="/vi-du" element={<ViDu />} />
             <Route path="/y-nghia" element={<YNghia />} />
             <Route path="/su-kien" element={<SuKien />} />
-            <Route path="/ai-report" element={<AIReport />} />
+            <Route path="/ai-usage" element={<AIUsage />} />
             <Route path="/present-register" element={<RickRoll />} />
           </Routes>
         </main>

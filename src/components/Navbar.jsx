@@ -9,7 +9,7 @@ function Navbar() {
     { path: '/vi-du', label: 'Ví Dụ' },
     { path: '/y-nghia', label: 'Ý Nghĩa' },
     { path: '/su-kien', label: 'Sự Kiện Lớp' },
-    { path: '/ai-report', label: 'AI Report' }
+    { path: '/ai-usage', label: 'AI Usage' }
   ]
 
   return (
