@@ -31,19 +31,19 @@ function ViDu() {
       surplus: "5,5 triệu thuê bao 5G trong 5 tháng đầu, tạo lợi thế độc quyền tạm thời",
       description: "Viettel là nhà mạng viễn thông hàng đầu Việt Nam, tiên phong triển khai công nghệ 5G. Việc đầu tư sớm vào hạ tầng 5G đã giúp Viettel tạo ra lợi thế cạnh tranh vượt trội và thu được lợi nhuận siêu ngạch trong giai đoạn đầu triển khai."
     },
-    {
-      id: 'vng',
-      name: "VNG Corporation",
-      subtitle: "Hệ sinh thái số",
-      year: "2025",
-      image: "https://mondialbrand.com/wp-content/uploads/2024/02/vng_corporation-logo_brandlogos.net_ysr15.png",
-      imageDetail: "https://static.kinhtedothi.vn/w960/images/upload/2024/03/13/zalo-dang-duoc-su-dung-rong-rai-tai-viet-nam.jpg",
-      revenue: "Zalo với 77 triệu người dùng hoạt động hàng tháng",
-      profit: "Đang mở rộng mạnh mẽ",
-      tech: "Phát triển AI, trí tuệ nhân tạo và hạ tầng đám mây",
-      surplus: "Tạo ra từ việc độc quyền ứng dụng nhắn tin số 1 Việt Nam và mở rộng sang các lĩnh vực công nghệ mới",
-      description: "VNG Corporation là công ty công nghệ tiên phong tại Việt Nam với nền tảng Zalo chiếm lĩnh thị trường. Bằng việc xây dựng hệ sinh thái số toàn diện và đầu tư vào AI, VNG đã tạo ra giá trị thặng dư siêu ngạch từ hiệu ứng mạng lưới và tính độc quyền của nền tảng."
-    }
+    // {
+    //   id: 'vng',
+    //   name: "VNG Corporation",
+    //   subtitle: "Hệ sinh thái số",
+    //   year: "2025",
+    //   image: "https://mondialbrand.com/wp-content/uploads/2024/02/vng_corporation-logo_brandlogos.net_ysr15.png",
+    //   imageDetail: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/a6/5f/a1a65fcc-2623-16f9-b2e5-1f248a2f9ed9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/230x0w.webp",
+    //   revenue: "Zalo với 77 triệu người dùng hoạt động hàng tháng",
+    //   profit: "Đang mở rộng mạnh mẽ",
+    //   tech: "Phát triển AI, trí tuệ nhân tạo và hạ tầng đám mây",
+    //   surplus: "Tạo ra từ việc độc quyền ứng dụng nhắn tin số 1 Việt Nam và mở rộng sang các lĩnh vực công nghệ mới",
+    //   description: "VNG Corporation là công ty công nghệ tiên phong tại Việt Nam với nền tảng Zalo chiếm lĩnh thị trường. Bằng việc xây dựng hệ sinh thái số toàn diện và đầu tư vào AI, VNG đã tạo ra giá trị thặng dư siêu ngạch từ hiệu ứng mạng lưới và tính độc quyền của nền tảng."
+    // }
   ]
 
   const worldCompanies = [
@@ -73,19 +73,19 @@ function ViDu() {
       surplus: "Là công ty duy nhất có lợi nhuận trong ngành xe điện Mỹ, biên lợi nhuận 17%",
       description: "Tesla đã cách mạng hóa ngành công nghiệp ô tô bằng công nghệ xe điện và tự lái. Là công ty duy nhất trong ngành xe điện Mỹ có lợi nhuận, Tesla tạo ra giá trị thặng dư siêu ngạch thông qua đổi mới công nghệ liên tục, tự động hóa sản xuất và tích hợp dọc trong chuỗi giá trị."
     },
-    {
-      id: 'microsoft',
-      name: "Microsoft",
-      subtitle: "Điện toán đám mây và AI",
-      year: "2025",
-      image: "https://www.logodesignlove.com/wp-content/uploads/2012/08/microsoft-logo-02.jpeg",
-      imageDetail: "https://9dots.com/wp-content/uploads/2024/11/azure.png",
-      revenue: "76,4 tỷ USD, tăng 18%",
-      profit: "27,2 tỷ USD",
-      tech: "Azure (75 tỷ USD doanh thu, tăng 34%), AI",
-      surplus: "Tỷ suất lợi nhuận gộp Azure phi AI đạt 73%, cao nhất ngành",
-      description: "Microsoft đang dẫn đầu cuộc đua điện toán đám mây và AI với nền tảng Azure. Tỷ suất lợi nhuận gộp 73% của Azure thể hiện giá trị thặng dư siêu ngạch khổng lồ từ việc đầu tư sớm vào hạ tầng đám mây và tích hợp AI, tạo ra lợi thế cạnh tranh bền vững."
-    }
+    // {
+    //   id: 'microsoft',
+    //   name: "Microsoft",
+    //   subtitle: "Điện toán đám mây và AI",
+    //   year: "2025",
+    //   image: "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/microsoft-512.png",
+    //   imageDetail: "https://www.pacisoft.vn/wp-content/uploads/2023/08/Microsoft-Azure-banner.jpg",
+    //   revenue: "76,4 tỷ USD, tăng 18%",
+    //   profit: "27,2 tỷ USD",
+    //   tech: "Azure (75 tỷ USD doanh thu, tăng 34%), AI",
+    //   surplus: "Tỷ suất lợi nhuận gộp Azure phi AI đạt 73%, cao nhất ngành",
+    //   description: "Microsoft đang dẫn đầu cuộc đua điện toán đám mây và AI với nền tảng Azure. Tỷ suất lợi nhuận gộp 73% của Azure thể hiện giá trị thặng dư siêu ngạch khổng lồ từ việc đầu tư sớm vào hạ tầng đám mây và tích hợp AI, tạo ra lợi thế cạnh tranh bền vững."
+    // }
   ]
 
   const CompanyCard = ({ company, onClick }) => (
@@ -206,7 +206,7 @@ function ViDu() {
         <div>
           <div style={{
             width: '100%',
-            height: '500px',
+            height: 'auto',
             background: 'rgba(10, 10, 20, 0.5)',
             borderRadius: '12px',
             border: '1px solid rgba(138, 43, 226, 0.3)',
@@ -317,9 +317,9 @@ function ViDu() {
     <div className="page-container">
       <h1 className="page-title">Ví Dụ - Thặng Dư Siêu Ngạch</h1>
       <div className="page-content">
-        <h2>2. Ví dụ từ các doanh nghiệp tiên phong</h2>
+        <h2> Ví dụ từ các doanh nghiệp tiên phong</h2>
         
-        <h3 style={{ marginTop: '2rem', marginBottom: '1.5rem' }}>2.1. Ví dụ từ Việt Nam</h3>
+        <h3 style={{ marginTop: '2rem', marginBottom: '1.5rem' }}>Ví dụ từ các doanh nghiệp Việt Nam</h3>
         <div style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
@@ -331,7 +331,7 @@ function ViDu() {
           ))}
         </div>
 
-        <h3 style={{ marginTop: '3rem', marginBottom: '1.5rem' }}>2.2. Ví dụ từ thế giới</h3>
+        <h3 style={{ marginTop: '3rem', marginBottom: '1.5rem' }}>2.2. Ví dụ từ doanh nghiệp toàn cầu </h3>
         <div style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
