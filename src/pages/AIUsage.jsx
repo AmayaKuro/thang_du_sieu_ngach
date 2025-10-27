@@ -274,6 +274,19 @@ function AIUsage() {
                   <p>Về ứng dụng công nghệ trong sản xuất</p>
                   <span className="reference-badge">Tham khảo</span>
                 </li>
+                     <li>
+                  <strong>thitruongtaichinhtiente.vn</strong>
+                  <p>
+                    <a
+                      href="https://thitruongtaichinhtiente.vn/6-thang-fpt-bao-loi-nhuan-truoc-thue-6-166-ty-dong-tang-truong-18-5-68984.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Về thu thập báo cáo doanh thu doanh nghiệp.
+                    </a>
+                  </p>
+                  <span className="reference-badge">Tham khảo</span>
+                </li>
               </ul>
             </div>
           </div>
