@@ -13,8 +13,8 @@ function RickRoll() {
           allowFullScreen
         ></iframe>
         <div className="rickroll-message">
-          <h1>🎵 You've Been Rick Rolled! 🎵</h1>
-          <p>Never Gonna Give You Up, Never Gonna Let You Down</p>
+          <h1>( ͠° ͟ʖ ͡°)</h1>
+          <p>🥀</p>
         </div>
       </div>
     </div>
